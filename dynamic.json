@@ -1,0 +1,47 @@
+{
+	"profile":{
+		"image":"images.png",
+		"name":"Deepak",
+		"role":"1216",
+		"place":"hyderbad",
+		"email":"vcmh.124@gmail.com"
+	},
+	"carrier":{
+		"info":"i wanna become a software engeneer"
+	},
+	"education":[
+		{
+     "degree":"btech",
+     "institute":"vignan",
+     "per":"75%",
+     "yop":"2021"
+    },
+   {
+	 "degree":"intermediate",
+	 "institute":"bhashyam",
+	 "per":"80",
+	 "yop":"2017"
+   },
+   {
+   	 "degree":"schooling",
+      "institute":"svbk",
+      "per":"85",
+      "yop":"2015"
+
+   }
+    ],
+ 
+       "language":[
+       	{
+       		"info":"english"
+
+       	},
+       	{
+       		"info":"telugu"
+       	},
+       	{
+       		"info":"hindi"
+
+       	}
+      ]
+   }
