@@ -1,0 +1,83 @@
+body{
+    background: purple;
+}
+.maindiv{
+	background: bisque;
+	display: flex;
+	justify-content: space-around;
+	margin:8%;
+}
+.leftdiv{
+    background:pink;
+	margin:5%;
+	width:25%;
+	border-radius: 5%;
+	text-align: center;
+	height: 40%;
+}
+.rightdiv{
+	background: aqua;
+	margin:5%;
+	width:70%;
+	border-radius: 5%;
+}
+img{
+	margin:5%;
+	width:70%;
+	height:35%;
+	border-radius: 5%;
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+body{
+	background: purple;
+}
+.maindiv{
+	background:bisque;
+	width:94%;
+	display:flex;
+	flex-wrap: wrap;
+	margin:3%;
+
+}
+.leftdiv{
+	background:pink;
+	margin:2%;
+	width:96%;
+	border-radius: 3%;
+	text-align: center;
+
+
+}
+.rightdiv{
+	background: aqua;
+	margin:2%;
+	width:96%;
+	border-radius:3%;
+
+}
+img{
+	margin: 3%;
+	width:70%;
+	height:35%;
+	border-radius:3%;
+}
+@media screen and (min-width: 480px) and (max-width: 670px){
+.maindiv{
+	width:94%;
+	background: blue;
+	display:flex;
+	margin:3%;
+}
+.leftdiv{
+	background:pink;
+	width:50%;
+	border-radius:3%;
+	text-align:center; 
+}
+.rightdiv{
+	background:aqua;
+	margin:5%;
+	width:50%;
+	border-radius: 3%;
+
+}
